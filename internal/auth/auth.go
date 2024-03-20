@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 
+// Define custom errors
 var ErrNoAuthHeaderIncluded = errors.New("no authorization header included")
 
 // GetAPIKey -
